@@ -25,7 +25,7 @@ public class Main {
 
     public static boolean doubleZero(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == 0 && array[i + 1] == 0 && array[i + 1] < array.length){
+            if (array[i] == 0 && array[i - 1] == 0){
                 return true;
             }
         }
